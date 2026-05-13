@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gymie</title>
+</head>
+<!-- <link rel="stylesheet" href="css/style.css"> -->
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('gympic.jpg');
+        color: blue;
+    }
+
+    .left {
+        color: white;
+        display: inline-block;
+        /* padding-bottom: 37px; */
+        position: absolute;
+        top: 20px;
+        left: 34px;
+        font-size: 18px;
+
+        /* border: 2px solid red; */
+    }
+
+    .left img {
+        /* border:2px solid blue;
+        position: absolute;
+        left: 23px; */
+        width: 35px;
+
+
+    }
+
+    .mid {
+        /* border: 2px solid greenyellow; */
+        display: block;
+        margin: 20px auto;
+        padding-right: 23px;
+        width: 33%;
+    }
+
+    .right {
+        /* border: 2px solid yellow; */
+        position: absolute;
+        right: 34px;
+        left: ;
+        top: 20px;
+        display: inline-block;
+    }
+
+    .navebar {
+        display: inline-block;
+    }
+
+    .navebar li {
+        display: inline-block;
+    }
+
+    .navebar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 10px;
+        font-size: 16px;
+    }
+
+    .navebar li a:hover,
+    .navebar li a.avtive {
+        color: rgb(255, 255, 18);
+        text-decoration: underline;
+
+    }
+
+    .left jk {
+        position: absolute;
+        bottom: 0px;
+        /* font-size: 26px; */
+    }
+
+    .btn {
+        margin: 9px;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        padding: 5px 8px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: grey;
+        text-decoration: underline;
+
+    }
+
+    .container {
+        position: absolute;
+        top: 30px;
+        /* border: 2px solid red; */
+        margin: 70px 30px;
+        width: 33%;
+        padding: 20px 30px;
+        border-radius: 10px;
+        color: white;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .form-group input {
+        text-align: center;
+        width: 70%;
+        margin: 10px 40px;
+        padding: 7px 0px;
+        font-size: 15px;
+    }
+
+    .butn {
+        margin: 10px 0px;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        padding: 5px 35px;
+        cursor: pointer;
+        font-size: 15px;
+        width: 70%;
+    }
+
+    .butn:hover {
+        background-color: grey;
+        text-decoration: underline;
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <center><img src="gymlogo.jpg" alt=""></center>
+            <div class="jk">Gymie Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navebar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>Welcome to Gymie Fitness</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter your Name ">
+                <br>
+                <input type="number" name="" id="" placeholder="Enter your Age">
+                <br>
+                <input type="text" name="" id="" placeholder="Enter your Gender">
+                <br>
+                <input type="text" name="" id="" placeholder="Enter your Locality">
+                <br>
+                <input type="text" name="" id="" placeholder="Enter your Phone Number">
+                <br>
+            </div>
+            <button class="butn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
